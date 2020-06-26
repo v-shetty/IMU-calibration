@@ -11,9 +11,35 @@ Front end design of the tool looks like this
 
 Accelerometer calibration :
 
+Accelerometer sensor can be modeled as
+<img src = "Image/acc.PNG"  >
+
 
 
 Gyroscope Calibration :
 
-Magnetometer Calibration : 
+Gyroscope  sensor can be modeled as
+
+<img src = "Image/gyro.PNG"  >
+
+
+
+
+To Do list :
+
+Magnetometer Calibration :
+
+Magnetometer  sensor can be modeled as
+
+
+<img src = "Image/magn.PNG"  >
+
+
+Temperature Calibration :
+
+IMU sensors are sensitive to temperature so does the calibration parameters.
+Temperature dependency of parameters are modeled as quadratic equation. 
+
+<img src = "Image/temp.PNG"  >
+
 
